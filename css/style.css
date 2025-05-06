@@ -67,7 +67,7 @@ img{
 }
 .main__stats{
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-block-end: 5.75rem;
     display: flex;
     flex-flow: column;
@@ -153,6 +153,10 @@ img{
     display: inline-block;
     margin-block-end: 6.25rem;
 }
+.footer__newsletter div{
+    display: flex;
+    flex-flow: column;
+}
 .footer__p{
     font-size: .85rem;
     margin-block: 1.125rem 2.5rem;
@@ -167,6 +171,10 @@ img{
     margin-inline-start: 1rem;
     font-size: .875rem;
 }
+.footer__contact div{
+    margin-block: 1rem;
+}
+
 
 @media screen and (min-width: 1024px){
     .header{
@@ -251,6 +259,7 @@ img{
         font-size: 1rem;
     }
     .main__h2-readytobuild{
+        color: hsl(192, 100%, 9%);
         font-size: 2.5rem;
         margin-block-start: 2rem;
     }
@@ -284,9 +293,7 @@ img{
         max-width: 340px;
         line-height: 1.7;
     }
-    .footer__contact div{
-        margin-block: 1rem;
-    }
+    
     .footer__p{ 
         line-height: 1.7;
         margin-block-start: 1.5rem;
