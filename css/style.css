@@ -252,6 +252,7 @@ img{
     }
     .main__h2-readytobuild{
         font-size: 2.5rem;
+        margin-block-start: 2rem;
     }
     .main__button:last-of-type{
         margin-block-end: 14rem;
@@ -276,10 +277,20 @@ img{
     }
     .footer__button{
         margin: 0;
-        margin-inline-start: 2rem;
+        margin-inline-start: 3rem;
+        font-size: 1rem;
     }
     .footer__description{
         max-width: 340px;
+        line-height: 1.7;
+    }
+    .footer__contact div{
+        margin-block: 1rem;
+    }
+    .footer__p{ 
+        line-height: 1.7;
+        margin-block-start: 1.5rem;
+
     }
     
 }
