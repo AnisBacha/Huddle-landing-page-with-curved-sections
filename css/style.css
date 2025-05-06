@@ -68,7 +68,7 @@ img{
 .main__stats{
     font-size: 3.5rem;
     font-weight: 700;
-    margin-block-end: 5.75rem;
+    margin-block-end: 3rem;
     display: flex;
     flex-flow: column;
 }
@@ -86,10 +86,10 @@ img{
 }
 
 .main__section{
-    margin-block-end: 15rem;
+    margin-block-end: 10rem;
 }
 .main__section:last-of-type{
-    margin-block-end: 17.5rem;
+    margin-block-end: 13rem;
 }
 .main__h2{
     font-family: "Poppins";
