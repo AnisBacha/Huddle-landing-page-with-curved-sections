@@ -201,14 +201,14 @@ img{
         font-weight: 700;
     }
     .main__screen-mockups{
-        margin-block-start: 7.5rem;
+        margin-block: 7.5rem;
     }
     .stats-container{
         display: flex;
         justify-content: space-between;
         width: 100%;
         max-width: 870px;
-        margin-block: 7.5rem 22.5rem;
+        margin-block-end: 22.5rem;
     }
     .main__stats{
         font-size: 6rem;
