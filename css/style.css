@@ -228,7 +228,7 @@ img{
         flex-flow: row-reverse;
         align-items: center;
         text-align: start;
-        margin-block-end: 23.125rem;
+        margin-block-end: 21rem;
     }
     .main__section:nth-of-type(3){
         flex-flow: row;
@@ -252,6 +252,9 @@ img{
     }
     .main__h2-readytobuild{
         font-size: 2.5rem;
+    }
+    .main__button:last-of-type{
+        margin-block-end: 14rem;
     }
     .footer{
         background-image: url('../images/bg-section-bottom-desktop-2.svg');
