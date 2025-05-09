@@ -284,6 +284,9 @@ img{
         align-items: center;
         width: 515px;
     }
+    .footer__newsletter div{
+        flex-flow: row;
+    }
     .footer__button{
         margin: 0;
         margin-inline-start: 3rem;
